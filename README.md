@@ -6,7 +6,7 @@ Here we implement Matrix Factorization using alternating least squares.
 
 ## Task:
 
-The goal is to derive latent representation of the user and item feature vectors. The (predicted) ratings that a user gives to an item is the inner product of user's latent vector and the item's latent vector.
+The goal is to derive latent representation of the user and item feature vectors. The (predicted) ratings that a user gives to an item is the inner product of user's latent vector and the item's latent vector. We use alternating least squares for training.
 
 We use the 20 million MovieLens data set available on [Kaggle](https://www.kaggle.com/grouplens/movielens-20m-dataset). Though, for practical implementation on a pc we shrink this dataset.
 
